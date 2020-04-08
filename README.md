@@ -1,4 +1,4 @@
-# spotehfi-ahk - deprecated
+# Spotehfi-ahk - deprecated
 
 Spotehfi-ahk is an __incomplete__ application written in [AutoHotkey](https://www.autohotkey.com/), open-sourced for use and/or for further [development](#usage-instructions). 
 
@@ -15,7 +15,7 @@ Spotehfi-ahk is an __incomplete__ application written in [AutoHotkey](https://ww
 
 ### Available Features
 
-spotehfi-ahk contains a few features, of which are complete, were tested and fully functional on **Windows 10**, **64-Bit**.
+Spotehfi-ahk contains a few features, of which are complete, were tested and fully functional on **Windows 10**, **64-Bit**.
 
 #### Spotify Search
 
@@ -70,7 +70,7 @@ Display an extended log of track's users have listened to within Spotify w/ supp
 
 ### User Preferences
 
-spotehfi-ahk will prompt you with an 'initial setup' the first time you launch, and will save your preferences to file.
+Spotehfi-ahk will prompt you with an 'initial setup' the first time you launch, and will save your preferences to file.
 
 #### Font
 
@@ -84,7 +84,7 @@ Browse for a directory of your choice, or allow spotehfi-ahk to output YouTube d
 
 ### Link Detection
 
-spotehfi-ahk will detect any __valid__ Spotify URI/URL. Highlighting a URI, followed by `CTRL+C` will open it in Spotify.
+Spotehfi-ahk will detect any __valid__ Spotify URI/URL. Highlighting a URI, followed by `CTRL+C` will open it in Spotify.
 
 ### URL Conversion
 
@@ -116,7 +116,7 @@ When copying an `open.spotify` URL, spotehfi-ahk will automatically convert it i
 
 ### User Settings
 
-spotehfi-ahk has a few user settings which can be accessed via the :gear:. These settings are saved in `Settings.ini`.
+Spotehfi-ahk has a few user settings which can be accessed via the :gear:. These settings are saved in `Settings.ini`.
 
 #### Colours
 
@@ -128,7 +128,7 @@ Browse for a directory of your choice, or use the default. This'll be used for f
 
 ## Credits
 
-spotehfi-ahk was developed by [Jxyme](https://github.com/Jxyme), with some assistance from [jordhardwell](https://github.com/jordhardwell) in early January 2020 (?)
+Spotehfi-ahk was developed by [Jxyme](https://github.com/Jxyme), with some assistance from [jordhardwell](https://github.com/jordhardwell) in early January 2020 (?)
 
 * AutoHotkey: [Website](https://www.autohotkey.com/) | [GitHub](https://github.com/AutoHotkey/AutoHotkey)
   * AddTooltip v2.0: [Script by jballi](https://www.autohotkey.com/boards/viewtopic.php?f=6&t=30079)
