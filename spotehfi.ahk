@@ -31,7 +31,7 @@ global Version = "v0.0.1.0"
 BUILD MAIN GUI
 */ ; ---------------------------------------------------
 
-Menu, Tray, Icon, resources/assets/spotify.ico,, 1
+Menu, Tray, Icon, resources/assets/spotehfi.ico,, 1
 
 Menu, Tray, Add, Restore, Restore
 Menu, Tray, Default, Restore
@@ -421,14 +421,14 @@ ValidateFiles(){
          Run, https://github.com/Jxyme/spotehfi-ahk/raw/master/resources/assets/btnYouTube.png
       Quit()
    }
-   If !FileExist("resources/assets/spotify.ico")
+   If !FileExist("resources/assets/spotehfi.ico")
    {
-      MsgBox, 16, Missing Prerequisites, Unable to locate 'spotify.ico' in 'assets' folder.
+      MsgBox, 16, Missing Prerequisites, Unable to locate 'spotehfi.ico' in 'assets' folder.
       Msgbox, 36, Download Prerequisites, Do you wish to download the missing file?
       IfMsgBox, No
          Quit()
       IfMsgBox, Yes
-         Run, https://github.com/Jxyme/spotehfi-ahk/raw/master/resources/assets/Spotify.ico
+         Run, https://github.com/Jxyme/spotehfi-ahk/raw/master/resources/assets/spotehfi.ico
       Quit()
    }
    If !FileExist("resources/tools")
